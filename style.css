@@ -58,3 +58,13 @@ h1, h2, h3 {
 #mainLeft {
     border-right: 1px solid lightgray;
 }
+
+@media print {
+  body {
+    margin: 0;
+  }
+
+  main {
+    margin: 0;
+  }
+}
